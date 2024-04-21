@@ -11,10 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec857f1b-53fe-4ad2-9873-d974808d7485" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Slash/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Slash/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Slash.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/Slash.uproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Slash/Slash.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Slash/Slash.Build.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Maps/Minimal_Default.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/Maps/Minimal_Default.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Particles/P_Ambient_Dust.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/Particles/P_Ambient_Dust.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Slash/Private/Characters/SlashCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Slash/Private/Characters/SlashCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Slash/Public/Characters/SlashCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Slash/Public/Characters/SlashCharacter.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,6 +191,7 @@
       <workItem from="1713610244674" duration="2239000" />
       <workItem from="1713672463394" duration="3467000" />
       <workItem from="1713698880185" duration="1299000" />
+      <workItem from="1713700364335" duration="298000" />
     </task>
     <servers />
   </component>
