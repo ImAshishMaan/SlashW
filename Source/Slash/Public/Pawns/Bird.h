@@ -4,18 +4,40 @@
 #include "GameFramework/Pawn.h"
 #include "Bird.generated.h"
 
+class UCameraComponent;
+class UCapsuleComponent;
+class USkeletalMeshComponent;
+class USpringArmComponent;
+
 UCLASS()
 class SLASH_API ABird : public APawn {
 	GENERATED_BODY()
 
 public:
 	ABird();
+	virtual void Tick(float DeltaTime) override;
+
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 protected:
 	virtual void BeginPlay() override;
 
-public:
-	virtual void Tick(float DeltaTime) override;
+	void MoveForward(float Value);
+	void Turn(float Value);
+	void LookUp(float Value);
 
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+private:
+
+	UPROPERTY(VisibleAnywhere)
+	UCapsuleComponent* Capsule;
+
+	UPROPERTY(VisibleAnywhere)
+	USkeletalMeshComponent* BirdMesh;
+
+	UPROPERTY(VisibleAnywhere)
+	USpringArmComponent* CameraBoom;
+
+	UPROPERTY(VisibleAnywhere)
+	UCameraComponent* ViewCamera;
+	
 };
