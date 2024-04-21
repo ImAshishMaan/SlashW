@@ -10,16 +10,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec857f1b-53fe-4ad2-9873-d974808d7485" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Slash/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Slash/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimalVarietyPack/Crow/Meshes/SK_Crow.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AnimalVarietyPack/Crow/Meshes/SK_Crow.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_Bird.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_Bird.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Map/SlashOpenWorld.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Map/SlashOpenWorld.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Slash/Private/Pawns/Bird.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Slash/Private/Pawns/Bird.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Slash/Public/Pawns/Bird.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Slash/Public/Pawns/Bird.h" afterDir="false" />
-    </list>
+    <list default="true" id="ec857f1b-53fe-4ad2-9873-d974808d7485" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
