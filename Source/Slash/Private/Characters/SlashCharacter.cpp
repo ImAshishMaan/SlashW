@@ -46,6 +46,8 @@ void ASlashCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 	PlayerInputComponent->BindAxis("Turn", this, &ASlashCharacter::Turn);
 	PlayerInputComponent->BindAxis("MoveRight", this, &ASlashCharacter::MoveRight);
 	
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
+	
 }
 
 void ASlashCharacter::MoveForward(float Value) {
