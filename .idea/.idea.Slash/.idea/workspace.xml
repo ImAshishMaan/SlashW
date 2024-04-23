@@ -11,9 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec857f1b-53fe-4ad2-9873-d974808d7485" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Slash/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Slash/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AncientContent/Characters/Echo/Meshes/Echo_Skeleton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AncientContent/Characters/Echo/Meshes/Echo_Skeleton.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/HandsomeKatanaAnims/Demo/Characters/Mannequin_UE4/Meshes/SK_Mannequin_Skeleton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/HandsomeKatanaAnims/Demo/Characters/Mannequin_UE4/Meshes/SK_Mannequin_Skeleton.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Character/BP_SlashCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Character/BP_SlashCharacter.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
