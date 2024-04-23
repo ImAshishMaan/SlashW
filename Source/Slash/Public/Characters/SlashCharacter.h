@@ -4,6 +4,7 @@
 #include "GameFramework/Character.h"
 #include "SlashCharacter.generated.h"
 
+class AItem;
 class USpringArmComponent;
 class UCameraComponent;
 class UGroomComponent;
@@ -25,6 +26,7 @@ protected:
 	void Turn(float Value);
 	void LookUp(float Value);
 	void MoveRight(float Value);
+	void EKeyPressed();
 
 private:
 
@@ -39,5 +41,12 @@ private:
 
 	UPROPERTY(VisibleAnywhere, Category = Hair)
 	UGroomComponent* Eyebrows;
+
+	UPROPERTY(VisibleInstanceOnly)
+	AItem* OverlappingItem;
+
+
+public:
+	FORCEINLINE void SetOverlappingItem(AItem* Item) { OverlappingItem = Item; }
 	
 };

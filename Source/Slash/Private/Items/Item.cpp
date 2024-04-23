@@ -1,4 +1,6 @@
 #include "Items/Item.h"
+
+#include "Characters/SlashCharacter.h"
 #include "Components/SphereComponent.h"
 
 AItem::AItem() {
@@ -38,17 +40,18 @@ void AItem::Tick(float DeltaTime) {
 void AItem::OnSphereOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
 	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult) {
 
-	const FString OtherActorName = OtherActor->GetName();
-	if(GEngine) {
-		GEngine->AddOnScreenDebugMessage(1, 30.f, FColor::Red, OtherActorName);
+	ASlashCharacter* SlashCharacter = Cast<ASlashCharacter>(OtherActor);
+	if(SlashCharacter) {
+		SlashCharacter->SetOverlappingItem(this);
 	}
 	
 }
 
 void AItem::OnComponentEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
 	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex) {
-	const FString OtherActorName = "END OVERLAP";
-	if(GEngine) {
-		GEngine->AddOnScreenDebugMessage(1, 30.f, FColor::Red, OtherActorName);
+	
+	ASlashCharacter* SlashCharacter = Cast<ASlashCharacter>(OtherActor);
+	if(SlashCharacter) {
+		SlashCharacter->SetOverlappingItem(nullptr);
 	}
 }
