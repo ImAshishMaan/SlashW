@@ -9,6 +9,7 @@ class AItem;
 class USpringArmComponent;
 class UCameraComponent;
 class UGroomComponent;
+class UAnimMontage;
 
 UCLASS()
 class SLASH_API ASlashCharacter : public ACharacter {
@@ -23,15 +24,31 @@ public:
 protected:
 	virtual void BeginPlay() override;
 
+	/*
+	* Call backs for input
+	*/
 	void MoveForward(float Value);
 	void Turn(float Value);
 	void LookUp(float Value);
 	void MoveRight(float Value);
 	void EKeyPressed();
+	void Attack();
+
+	/*
+	* Play Montage Functions	
+	*/
+	void PlayAttackMontage();
+
+	UFUNCTION(BlueprintCallable)
+	void AttackEnd();
+	bool CanAttack();
 
 private:
 
 	ECharacterState CharacterState = ECharacterState::ECS_UnEquipped;
+	
+	UPROPERTY(BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
+	EActionState ActionState = EActionState::EAS_Unoccupied;
 
 	UPROPERTY(VisibleAnywhere)
 	USpringArmComponent* CameraBoom;
@@ -47,6 +64,13 @@ private:
 
 	UPROPERTY(VisibleInstanceOnly)
 	AItem* OverlappingItem;
+
+
+	/*
+	* Animation Montages
+	*/
+	UPROPERTY(EditDefaultsOnly, Category = Montages)
+	UAnimMontage* AttackMontage;
 
 
 public:
