@@ -13,6 +13,8 @@
     <list default="true" id="ec857f1b-53fe-4ad2-9873-d974808d7485" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Slash/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Slash/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/Items/Weapons/BP_Weapon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Items/Weapons/BP_Weapon.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/SlashOpenWorld/6/BS/8TQU0BIH1WBB2V7HGI4BZI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/SlashOpenWorld/6/BS/8TQU0BIH1WBB2V7HGI4BZI.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/SlashOpenWorld/6/NT/V1O8O1JIAGF9DCBIQAXW1F.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/SlashOpenWorld/6/NT/V1O8O1JIAGF9DCBIQAXW1F.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Slash/Private/Items/Weapons/Weapon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Slash/Private/Items/Weapons/Weapon.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Slash/Public/Items/Weapons/Weapon.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Slash/Public/Items/Weapons/Weapon.h" afterDir="false" />
     </list>
@@ -196,7 +198,7 @@
       <workItem from="1713844837150" duration="292000" />
       <workItem from="1713845147622" duration="2837000" />
       <workItem from="1713859874700" duration="11915000" />
-      <workItem from="1713962970538" duration="1648000" />
+      <workItem from="1713962970538" duration="4026000" />
     </task>
     <servers />
   </component>
