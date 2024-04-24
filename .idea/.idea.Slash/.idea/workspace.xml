@@ -12,14 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ec857f1b-53fe-4ad2-9873-d974808d7485" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Slash/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Slash/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AncientContent/Characters/Echo/Meshes/Echo.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AncientContent/Characters/Echo/Meshes/Echo.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AncientContent/Characters/Echo/Meshes/Echo_Skeleton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AncientContent/Characters/Echo/Meshes/Echo_Skeleton.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Character/ABP_Echo.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Character/ABP_Echo.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Character/BP_SlashCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Character/BP_SlashCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Slash/Private/Characters/SlashCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Slash/Private/Characters/SlashCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Items/Weapons/BP_Weapon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Items/Weapons/BP_Weapon.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Slash/Private/Items/Weapons/Weapon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Slash/Private/Items/Weapons/Weapon.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Slash/Public/Characters/CharacterTypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Slash/Public/Characters/CharacterTypes.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Slash/Public/Characters/SlashCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Slash/Public/Characters/SlashCharacter.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Slash/Public/Items/Weapons/Weapon.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Slash/Public/Items/Weapons/Weapon.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -202,6 +196,7 @@
       <workItem from="1713844837150" duration="292000" />
       <workItem from="1713845147622" duration="2837000" />
       <workItem from="1713859874700" duration="11915000" />
+      <workItem from="1713962970538" duration="1648000" />
     </task>
     <servers />
   </component>

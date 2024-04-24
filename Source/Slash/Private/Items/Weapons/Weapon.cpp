@@ -1,6 +1,12 @@
 
 #include "Items/Weapons/Weapon.h"
-#include "Characters/SlashCharacter.h"
+#include "Components/BoxComponent.h"
+
+AWeapon::AWeapon() {
+	WeaponBox = CreateDefaultSubobject<UBoxComponent>("WeaponBox");
+	WeaponBox->SetupAttachment(GetRootComponent());
+	
+}
 
 void AWeapon::Equip(USceneComponent* InParent, FName InSocketName) {
 	AttachMeshToSocket(InParent, InSocketName);
