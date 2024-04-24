@@ -1,6 +1,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "CharacterTypes.h"
 #include "GameFramework/Character.h"
 #include "SlashCharacter.generated.h"
 
@@ -30,6 +31,8 @@ protected:
 
 private:
 
+	ECharacterState CharacterState = ECharacterState::ECS_UnEquipped;
+
 	UPROPERTY(VisibleAnywhere)
 	USpringArmComponent* CameraBoom;
 
@@ -48,5 +51,6 @@ private:
 
 public:
 	FORCEINLINE void SetOverlappingItem(AItem* Item) { OverlappingItem = Item; }
-	
+
+	FORCEINLINE ECharacterState GetCharacterState() const { return CharacterState; }
 };
