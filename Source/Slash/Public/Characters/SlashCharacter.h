@@ -22,6 +22,12 @@ public:
 	virtual void Tick(float DeltaTime) override;
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	UFUNCTION(BlueprintCallable)
+	void SetWeaponCollisionEnabled(ECollisionEnabled::Type CollisionEnabled);
+
+	/*UFUNCTION(BlueprintCallable)
+	void DisableWeaponCollision();*/
+	
 protected:
 	virtual void BeginPlay() override;
 
